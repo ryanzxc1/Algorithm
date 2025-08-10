@@ -35,7 +35,7 @@ public class Main {
             } else {
                 numB++; 
             }
-            return; //재귀함수 멈추게 하는 요소
+            return; //만약 isAllSameColor가 나온다면(같은색) return으로 재귀 정지
         }
 
         
@@ -59,4 +59,5 @@ public class Main {
         }
         return true; 
     }
+
 }
